@@ -2,7 +2,7 @@ Protocentral OpenOx Wireless Pulse Sensor Kit based on AFE4400/ESP32
 ========================================
 
 ## Don't have one? [Buy it here](https://protocentral.com/product/protocentral-openox-pulse-oximeter-breakout-board-kit/)
-
+![Protocentral OpenOx Pulse Oximeter Breakout Board](assets/IMG_3292.jpg)
 ![Protocentral OpenOx Pulse Oximeter Breakout Board](assets/openox.jpg)
 
 Protocentral OpenOx is a new standalone, wireless pulse oximetry breakout board that is powered by the ubiquitous ESP32 WROOM32 module and uses the AFE4490 IC to measure oxygen levels in the blood while also providing a PPG waveform, heart rate, and SpO2 values measured with high precision. 
