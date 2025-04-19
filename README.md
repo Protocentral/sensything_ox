@@ -6,7 +6,7 @@ Protocentral Sensything Ox Wireless Pulse Sensor Kit based on AFE4400/ESP32S3
 
 Protocentral Sensything Ox is the latest, renamed version of our popular [OpenOx](https://github.com/Protocentral/protocentral_openox) Pulse sensor board. It is a standalone, wireless pulse oximetry breakout board that is powered by the ESP32S3 module and uses the AFE4400 IC to measure oxygen levels in the blood while also providing a PPG waveform, heart rate, and SpO2 values measured with high precision.
 
-The Senysthing Ox improves upon the previous version of the [OpenOx board](https://github.com/Protocentral/protocentral_openox) by replacing the ESP32 module with the new ESP32S3 with 8MB Flash memory and 2MB PSRAM. This allows for a more powerful and efficient processing of the data collected by the AFE4400 IC. The board is designed to be used in a variety of applications, including medical research, fitness tracking, and remote patient monitoring.
+The Sensything Ox improves upon the previous version of the [OpenOx board](https://github.com/Protocentral/protocentral_openox) by replacing the ESP32 module with the new ESP32S3 with 8MB Flash memory and 2MB PSRAM. This allows for a more powerful and efficient processing of the data collected by the AFE4400 IC. The board is designed to be used in a variety of applications, including medical research, fitness tracking, and remote patient monitoring.
 
 ## Hardware Setup
 
