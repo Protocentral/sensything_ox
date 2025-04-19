@@ -1,27 +1,28 @@
-Protocentral OpenOx Wireless Pulse Sensor Kit based on AFE4400/ESP32
+Protocentral Sensything Ox Wireless Pulse Sensor Kit based on AFE4400/ESP32S3
 ========================================
+![Protocentral Sensything Ox Pulse Oximeter Breakout Board](assets/sensything_ox.jpg)
 
-## Don't have one? [Buy it here](https://protocentral.com/product/protocentral-openox-pulse-oximeter-breakout-board-kit/)
-![Protocentral OpenOx Pulse Oximeter Breakout Board](assets/IMG_3292.jpg)
-![Protocentral OpenOx Pulse Oximeter Breakout Board](assets/openox.jpg)
+## Don't have one? [Buy it here](https://protocentral.com/product/protocentral-sensythingox-wireless-pulse-sensor-kit-based-on-afe4400-esp32/)
 
-Protocentral OpenOx is a new standalone, wireless pulse oximetry breakout board that is powered by the ubiquitous ESP32 WROOM32 module and uses the AFE4490 IC to measure oxygen levels in the blood while also providing a PPG waveform, heart rate, and SpO2 values measured with high precision. 
+Protocentral Sensything Ox is the latest, renamed version of our popular [OpenOx] Pulse sensor board. It is a standalone, wireless pulse oximetry breakout board that is powered by the ESP32S3 module and uses the AFE4400 IC to measure oxygen levels in the blood while also providing a PPG waveform, heart rate, and SpO2 values measured with high precision.
 
-Protocentral OpenOx redefines mobility and wireless capabilities. It functions as a data acquisition system, allowing for continuous real-time monitoring of blood oxygen levels via BLE, which improves the user's medical care within his or her environment as well as medical research opportunities. The standard Nellcor probe is used, which is comfortable to wear, does not restrict the user's freedom of movement, and functions as a battery-powered standalone device.
-
+The Senysthing Ox improves upon the previous version of the [OpenOx board] by replacing the ESP32 module with ESP32S3 with 8MB Flash memory and 2MB PSRAM. This allows for a more powerful and efficient processing of the data collected by the AFE4400 IC. The board is designed to be used in a variety of applications, including medical research, fitness tracking, and remote patient monitoring.
 
 ## Hardware Setup
 
-Connection with the Arduino board is as follows:
+The Sensything Ox programs are all in Arduino and examples are in the examples folder of this repo. To program, select the "ESP32S3 Dev Module" board in the Arduino IDE with the following settings.
 
- |OpenOx pin label| Arduino Connection  |Pin Function      |
- |:-----------------: |:---------------------:|:------------------:|
- | Tx0              |                         |  Serial Data     |
- | RX0              |                         |  Serial Clock    |
- | SDA              |                         |  Power           |
- | SCL              |                         |  GND             |
- | GND              | GND                     |  Ground          |
- | 3V3              | 3V                      |  3V power supply |
+* Board: ESP32S3 Dev Module
+* USB Mode: Hardware CDC and JTAG
+* USB CDC on Boot: Enabled
+* Upload Mode: UART0 / Hardware CDC
+* PSRAM: QSPI PSRAM
+
+# Documentation
+
+For further details of the board, refer the documentation at the following links:
+
+[Protocentral Sensything Ox Wireless Pulse Sensor Documentation](https://docs.protocentral.com/getting-started-with-openox/)
 
 # Visualizing Output
 
@@ -31,7 +32,7 @@ Connection with the Arduino board is as follows:
 
    <center>
 
-  ![streaming vitals](./assets/openox_openview.png)
+  ![streaming vitals](assets/sensything_ox_openview.png)
 
   </center>
 
@@ -39,7 +40,7 @@ Connection with the Arduino board is as follows:
 
  <center>
 
-  ![Home](./assets/home_healthypi_app.png)
+  ![Home](assets/home_healthypi_app.png)
 
   </center>
 
@@ -49,18 +50,10 @@ Connection with the Arduino board is as follows:
 
   </center>
 
-For further details of the board, refer the documentation
-<center>
-
-[Protocentral OpenOx Wireless Pulse Sensor Documentation](https://docs.protocentral.com/getting-started-with-openox.md/)
-
-</center>
-
-
 License Information
 ===================
 
-![License](assets/license_mark.svg)
+![License](license_mark.svg)
 
 This product is open source! Both, our hardware and software are open source and licensed under the following licenses:
 
