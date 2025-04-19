@@ -1,6 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////
-//
-//    This example is for the new Open-Ox board.
+//    Protocentral Electronics 2025
+//    OpenOx-BLE-Streaming.ino  
+//    This example is for the Protocentral Sensything Ox Pulse Sensor
 //
 //    This software is licensed under the MIT License(http://opensource.org/licenses/MIT).
 //
