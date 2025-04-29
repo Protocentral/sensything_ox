@@ -97,7 +97,7 @@ class MyCallbackHandler : public BLECharacteristicCallbacks
 
 void OpenOx_BLE_Init()
 {
-  BLEDevice::init("OpenOx");           // Create the BLE Device
+  BLEDevice::init("SensythingOx");           // Create the BLE Device
   pServer = BLEDevice::createServer(); // Create the BLE Server
   pServer->setCallbacks(new MyServerCallbacks());
   BLEService *HeartrateService = pServer->createService(Heartrate_SERVICE_UUID); // Create the BLE Service
